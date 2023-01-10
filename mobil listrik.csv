@@ -1,0 +1,263 @@
+,Tweet,Result Prediction,text_preprocessed
+0,"Sinosi, Mobil Listrik Canggih Karya Anak Bangsa, Jember https://t.co/ddbvyVwWBa",Neutral,"['sinosi', 'mobil', 'listrik', 'canggih', 'karya', 'anak', 'bangsa', 'jember']"
+1,@FaisalBasri @salimafillah Sulit berharap kebijakan pada pemerintah yang memilih menaikkan tarif KRL dan mensubsidi mobil listrik,Positive,"['sulit', 'berharap', 'kebijakan', 'pemerintah', 'memilih', 'menaikkan', 'tarif', 'krl', 'mensubsidi', 'mobil', 'listrik']"
+2,Mobil di Pandeglang Terbakar Diduga Korsleting Listrik https://t.co/2uNtTzdSFe,Positive,"['mobil', 'pandeglang', 'terbakar', 'diduga', 'korslet', 'listrik']"
+3,@syamilbasayef28 @MprAldo @ViviNadia8 Wetzzz sdh banyak mobil listrik &amp; Esemka yg jalan....&amp; Semuanya serba digital...hebat mmg ini para penipu nya 😂😂😂😂,Positive,"['wetzzz', 'mobil', 'listrik', 'amp', 'esemka', 'jalanamp', 'serba', 'digitalhebat', 'penipu', 'nya']"
+4,"@ScherazadeMS Ini mah bukan rewind, tp sirkel
+Yg sejelas itu aja malah gk masuk. Padahal itu nampilin mobil listrik, om Fitra yg kemarin jd driver buat tour di lintasan Formula E.",Neutral,"['mah', 'rewind', 'sirkel', 'sejela', 'masuk', 'nampilin', 'mobil', 'listrik', 'om', 'fitra', 'kemarin', 'driver', 'tour', 'lintasan', 'formula', 'e']"
+5,"Hebatnya rezim ini dg alasan modernisasi :
+
+Pake TV Digital
+Pake Mobil Listrik
+Pake Motor Listrik
+Pake Kompor Listrik...
+
+Giliran PILPRES pake KARDUS DIGEMBOK🤦 !!!",Neutral,"['hebatnya', 'rezim', 'alasan', 'modernisasi', 'pakai', 'tv', 'digit', 'pakai', 'mobil', 'listrik', 'pakai', 'motor', 'listrik', 'pakai', 'kompor', 'listrik', 'giliran', 'pilpr', 'pakai', 'kardu', 'digembok']"
+6,Elon Musk tamu VVIP mudah mudahan mobil listrik jadi murah di Indonesia https://t.co/bMYttoGhAv #KTTG20,Positive,"['elon', 'musk', 'tamu', 'vvip', 'mudah', 'mudahan', 'mobil', 'listrik', 'murah', 'indonesia']"
+7,"Penasaran Sama Mobil Listrik? Yuk Pantau Harga Wuling Air ev Awal 2023 Ini, Tipe Tertinggi Rp 300 Jutaan https://t.co/y2vo4W4dEm",Positive,"['penasaran', 'mobil', 'listrik', 'yuk', 'pantau', 'harga', 'wule', 'air', 'ev', 'tipe', 'tertinggi', 'rp', 'jutaan']"
+8,Mobil Listrik EV mudah meledak jika terendam banjir berhari2.. Mengerikan.. apalagii jakarta sering banget banjir.. kacauu nihh https://t.co/XHdgOuaFui,Positive,"['mobil', 'listrik', 'ev', 'mudah', 'meledak', 'terendam', 'banjir', 'berhari', 'mengerikan', 'apalagii', 'jakarta', 'banget', 'banjir', 'kacauu', 'nih']"
+9,Pemerintah Keluarkan Anggaran #Subsidi Sebesar 80 Juta untuk Mobil Listrik https://t.co/WUyQMe5Ogz #mobillistrik,Positive,"['pemerintah', 'keluarkan', 'anggaran', 'juta', 'mobil', 'listrik']"
+10,Mobil listrik disubsidi. Semoga bentar lagi gitar listrik juga disubsidi.,Positive,"['mobil', 'listrik', 'disubsidi', 'semoga', 'bentar', 'gitar', 'listrik', 'disubsidi']"
+11,"Diduga Korsleting Listrik, Mobil Sedan Hangus Terbakar di Pandeglang https://t.co/nxjKGYmNUt",Positive,"['diduga', 'korslet', 'listrik', 'mobil', 'sedan', 'hangu', 'terbakar', 'pandeglang']"
+12,"Diduga Korsleting Listrik, Sebuah Mobil Terbakar di Pandeglang https://t.co/X4lZUO8am8 #Bpbdpk #PetugasPemadam #Pandeglang #Wahananewsco",Positive,"['diduga', 'korslet', 'listrik', 'mobil', 'terbakar', 'pandeglang']"
+13,@Legislator75 @geloraco Tenang bg mobil sm motor listrik dapat subsidi,Positive,"['tenang', 'bang', 'mobil', 'motor', 'listrik', 'subsidi']"
+14,"@FWBESS Mohon maap nih sorry ya dr bnyk-nya list yg lu jabarin, yg masuk di akal gue cuma di urusan makan lu doang bang 22 hari taudeh tuh sisanya lu puasa atau nebeng temen, terus pajak mobil ape yg tiap bulan woy ? Itu listrik + pam 5jt lu bayarin rumah 1 blok ?",Positive,"['mohon', 'maaf', 'nih', 'sorri', 'ya', 'bnyknya', 'list', 'lu', 'jabarin', 'masuk', 'akal', 'gue', 'urusan', 'makan', 'lu', 'doang', 'bang', 'taudeh', 'tuh', 'sisanya', 'lu', 'puasa', 'nebeng', 'teman', 'pajak', 'mobil', 'woy', 'listrik', 'pam', 'juta', 'lu', 'bayarin', 'rumah', 'blok']"
+15,"@BenDPram @KompasTV Berapa hari rumah dan mobil bisa dijual ? Lu pikir rumah siput, sekalian rumah dan  dagingnya bisa lu jual dalam sehari segambreng 😒 https://t.co/RWNplaVo59",Positive,"['rumah', 'mobil', 'dijual', 'lu', 'pikir', 'rumah', 'siput', 'rumah', 'dagingnya', 'lu', 'jual', 'sehari', 'segambreng']"
+16,Dampak subsidi mobil listrik terhadap pergerakan IHSG selama 2023. https://t.co/HK1eOk1L0D,Neutral,"['dampak', 'subsidi', 'mobil', 'listrik', 'pergerakan', 'ihsg']"
+17,"Diduga Korsleting Listrik, Mobil Sedan di Pandeglang Terbakar https://t.co/luk246cFUr",Positive,"['diduga', 'korslet', 'listrik', 'mobil', 'sedan', 'pandeglang', 'terbakar']"
+18,really hyundai? ku kira bakal lebih milih Formula E secara elektrifikasi sudah bagus pengembangan tuk produksi mobil listrik yang bagus. wow beralih pengembangan mesin hybrid adakah kejutan? 👀 https://t.co/urFiGg8tUM,Positive,"['realli', 'hyundai', 'ku', 'memilih', 'formula', 'e', 'elektrifikasi', 'bagu', 'pengembangan', 'produksi', 'mobil', 'listrik', 'bagu', 'wow', 'beralih', 'pengembangan', 'mesin', 'hybrid', 'adakah', 'kejutan']"
+19,Sebuah mobil Honda Accord terbakar di depan Pendopo Bupati Pandeglang. Mobil terbakar diduga akibat korsleting listrik. https://t.co/mQJoONdjov,Positive,"['mobil', 'honda', 'accord', 'terbakar', 'pendopo', 'bupati', 'pandeglang', 'mobil', 'terbakar', 'diduga', 'akibat', 'korslet', 'listrik']"
+20,Sebuah mobil Honda Accord terbakar di depan Pendopo Bupati Pandeglang. Mobil terbakar diduga akibat korsleting listrik. https://t.co/rTuuoQOTJo,Positive,"['mobil', 'honda', 'accord', 'terbakar', 'pendopo', 'bupati', 'pandeglang', 'mobil', 'terbakar', 'diduga', 'akibat', 'korslet', 'listrik']"
+21,@LambeResing Kok gk Formula E dulu ya padahal hyundai lagi ngpush mobil listrik,Positive,"['formula', 'e', 'ya', 'hyundai', 'ngpush', 'mobil', 'listrik']"
+22,"Gak kalah dong kita.
+
+[JAKARTA, https://t.co/J3mk6zKnf2 - Pemerintah berencana memberikan subsidi pembelian kendaraan listrik sebesar Rp 80 juta untuk mobil listrik dan Rp 8 juta untuk motor listrik.] https://t.co/nzgBneIN1T",Positive,"['kalah', 'jakarta', 'pemerintah', 'berencana', 'subsidi', 'pembelian', 'kendaraan', 'listrik', 'rp', 'juta', 'mobil', 'listrik', 'rp', 'juta', 'motor', 'listrik']"
+23,"RUMAH SIAP HUNI BATURAN COLOMADU SOLO
+➡️KT 4
+➡️KM 2
+➡️Garasi
+➡️Ruang Tamu
+➡️Dapur 2
+✅ Listrik 2.200 watt 
+✅ PDAM 
+✅ Air Sumur Bersih Lancar
+✅ Tandon Air
+✅ Akses Mobil Simpangan
+✅ Bebas Banjir
+https://t.co/Tqm4NSUAV3
+#investasi #luxurythings #professions #realestate #cluster https://t.co/eu0WCe7Uvt",Positive,"['rumah', 'huni', 'baturan', 'colomadu', 'solo', 'garasi', 'ruang', 'tamu', 'dapur', 'listrik', 'watt', 'pdam', 'air', 'sumur', 'bersih', 'lancar', 'tandon', 'air', 'aks', 'mobil', 'simpangan', 'beba', 'banjir']"
+24,"Bayangin kalau nanti mobil, motor dan sepeda sudah pake listrik. Bahkan uang sudah elektronik / digital semua
+
+Akan sangat mudah buat melumpuhkan sebuah kota bahkan satu negara. Cukup sabotase PLN saja ⚡ #goodbye2022 https://t.co/4VgD0nO2sx",Positive,"['bayangkan', 'mobil', 'motor', 'sepeda', 'pakai', 'listrik', 'uang', 'elektronik', 'digit', 'mudah', 'melumpuhkan', 'kota', 'negara', 'sabotas', 'pln']"
+25,"Mobil Listrik Wuling Air ev Menarik Perhatian Warga Palembang, Ini Kelebihannya: Mobil listrik Wuling Air ev menarik perhatian lantaran banyak ditemukan di ruas jalan di kota Palembang. Apa kelebihan si kecil mungil ini? https://t.co/CeZ106Ps2O",Neutral,"['mobil', 'listrik', 'wule', 'air', 'ev', 'menarik', 'perhatian', 'warga', 'palembang', 'kelebihannya', 'mobil', 'listrik', 'wule', 'air', 'ev', 'menarik', 'perhatian', 'lantaran', 'ditemukan', 'rua', 'jalan', 'kota', 'palembang', 'kelebihan', 'sih', 'mungil']"
+26,"@elmarinojuliant @LambeResing iya saya pikir Hyundai bakalan ke Formula E mengingat mereka lagi kenceng di urusan mobil listrik. 
+
+lho malah rumornya ke F1?",Neutral,"['iya', 'pikir', 'hyundai', 'formula', 'e', 'kencang', 'urusan', 'mobil', 'listrik', 'lho', 'rumornya', 'f']"
+27,"Rumah 2:
+LT 228
+LB 270
+SHM
+Listrik 5500
+KT: 5
+KM: 4
+Dapur bersih
+Dapur kotor
+Jemuran
+Kamar ART: 1
+Garasi muat 2 mobil
+
+Keunggulan:
+Di pusat kota
+100 m (2 menit) ke stasiun KRL Kramat
+650 m ke halte TJ
+5 mnt ke RSCM
+10 mnt ke Bundaran HI https://t.co/7g0oE8ohY7",Positive,"['rumah', 'lantai', 'lb', 'shm', 'listrik', 'dapur', 'bersih', 'dapur', 'kotor', 'jemuran', 'kamar', 'art', 'garasi', 'muat', 'mobil', 'keunggulan', 'pusat', 'kota', 'menit', 'stasiun', 'krl', 'kramat', 'halt', 'tj', 'rscm', 'bundaran', 'hi']"
+28,"Rumah 1:
+LT 450
+LB 270
+SHM
+Listrik 5500
+Rangka atap baja ringan
+Rumah induk:
+KT:4
+KM:2
+Dapur
+Jemuran
+Kamar ART:1
+Paviliun 2 tingkat: 2KT &amp; 2KM
+Carport utk 8 mobil
+
+Keunggulan:
+Di pusat kota
+70 m (1 menit) ke stasiun KRL Kramat
+600 m ke halte TJ
+5 mnt ke RSCM
+10 mnt ke Bundaran HI https://t.co/ZBue0jand6",Positive,"['rumah', 'lantai', 'lb', 'shm', 'listrik', 'rangka', 'atap', 'baja', 'ringan', 'rumah', 'induk', 'dapur', 'jemuran', 'kamar', 'art', 'paviliun', 'tingkat', 'amp', 'carport', 'mobil', 'keunggulan', 'pusat', 'kota', 'menit', 'stasiun', 'krl', 'kramat', 'halt', 'tj', 'rscm', 'bundaran', 'hi']"
+29,Mobil Tertimpa Tiang Listrik saat Hendak Liburan ke Krui https://t.co/3UgRW8gVER,Positive,"['mobil', 'tertimpa', 'tiang', 'listrik', 'liburan', 'krui']"
+30,@kompascom Wacana tidak pakai otak. Mau terapkan perbedaan status sosial untuk angkutan KRL tapi mobil listrik malah disubsidi???,Neutral,"['wacana', 'pakai', 'otak', 'terapkan', 'perbedaan', 'statu', 'sosial', 'angkutan', 'krl', 'mobil', 'listrik', 'disubsidi']"
+31,"@rikigusma @PT_Transjakarta Hampir semua rute non BRT kayak gini semua kok, udah capek marah2, mending bawa kendaraan pribadi deh, mungkin ini kontribusi @PT_Transjakarta buat naikkin penjualan mobil listrik 🤣",Neutral,"['transjakarta', 'rute', 'non', 'bkayak', 'capek', 'marah', 'mend', 'bawa', 'kendaraan', 'pribadi', 'deh', 'kontribusi', 'transjakarta', 'naikkin', 'penjualan', 'mobil', 'listrik']"
+32,"@jokowi Yang maju ya orang kaya aja, mobil listrik pajak di press, padahal yg bisa beli cuma orang kaya. Sedangkan tarif KRL mau dinaikkin padahal katanya pro angkutan publik.
+Payah kebijakanmu om @jokowi
+Ayo pak @mohmahfudmd tolong dikoreksi pemimpinmu dr kebijakan nyeleneh 😂",Positive,"['maju', 'ya', 'orang', 'kayak', 'mobil', 'listrik', 'pajak', 'press', 'beli', 'orang', 'kayak', 'tarif', 'krl', 'dinaikkin', 'pro', 'angkutan', 'publik', 'payah', 'kebijakanmu', 'om', 'ayo', 'tolong', 'dikoreksi', 'pemimpinmu', 'kebijakan', 'nyeleneh']"
+33,menyandera jokowow agar subsidi mobil listrik diganti menjadi subsidi pc gaming bagi masyarakat tidak mampu https://t.co/uqrMVJZ8Yj,Positive,"['menyandera', 'jokowow', 'subsidi', 'mobil', 'listrik', 'diganti', 'subsidi', 'pc', 'game', 'masyarakat']"
+34,"Diduga Korsleting Listrik, Satu Unit Mobil Sedan Terbakar di Depan Pendopo Bupati Pandeglang https://t.co/RYEEagcY2n",Neutral,"['diduga', 'korslet', 'listrik', 'unit', 'mobil', 'sedan', 'terbakar', 'pendopo', 'bupati', 'pandeglang']"
+35,"@hipohan Ini namanya turun kelas, yg tadinya mobil dinas berteknologi stealth dilengkapi RCS jadi cuma mobil listrik 😄",Neutral,"['namanya', 'turun', 'kela', 'mobil', 'dina', 'berteknolog', 'stealth', 'dilengkapi', 'rc', 'mobil', 'listrik']"
+36,"Dagel terus gak mari2. Wayah e subsidi gawe transum. Eh, malah digawe mobil listrik. Kiblat kok Amerika. Ndelok en Amerika mobil tok isine. Transum e? Ra urusan. Pokok dalan tol omboh2 lan mobil akeh. Mumet. https://t.co/HUS9rKbIqW",Positive,"['dagel', 'mari', 'wayah', 'e', 'subsidi', 'gaw', 'transum', 'eh', 'digaw', 'mobil', 'listrik', 'kiblat', 'amerika', 'ndelok', 'en', 'amerika', 'mobil', 'tok', 'isin', 'transum', 'e', 'ra', 'urusan', 'pokok', 'dalan', 'tol', 'omboh', 'lan', 'mobil', 'akeh', 'mumet']"
+37,"Untuk para capres 2024 ayo adu ide dan gagasan soal hak dasar masyarakat seperti air bersih, transportasi publik, dan layanan administrasi kependudukan yg excellent.
+
+Gak usah dakik dakik kosong kaya mobil listrik padahal cuma nolong oligarki nikel https://t.co/tZf9nJF3qr",Neutral,"['capr', 'ayo', 'adu', 'ide', 'gagasan', 'hak', 'dasar', 'masyarakat', 'air', 'bersih', 'transportasi', 'publik', 'layanan', 'administrasi', 'kependudukan', 'excel', 'dakik', 'dakik', 'kosong', 'kayak', 'mobil', 'listrik', 'nolong', 'oligarki', 'nikel']"
+38,@nmonarizqa Solusinya ya mobil listrik lah 😍😂,Positive,"['solusinya', 'ya', 'mobil', 'listrik']"
+39,"Oke itu semua dari rentang waktu Maret-September (selama ngegrab motor listrik) 
+
+Jadi berenti grab motor karena diawal sept ketemu driver grabcar rental ternyata grab nyediain jg yg mobil trs itung2 lebih gedean mobil walaupun sewa jg dari yg motor. 
+
+Lanjut ke oktober",Positive,"['oke', 'rentang', 'maretseptemb', 'ngegrab', 'motor', 'listrik', 'berenti', 'grab', 'motor', 'diawal', 'sept', 'ketemu', 'driver', 'grabcar', 'rental', 'grab', 'nyediain', 'mobil', 'itung', 'gedean', 'mobil', 'sewa', 'motor', 'oktob']"
+40,"tentunya bukan subsidi mobil listrik yg bikin kualitas kota membaik, https://t.co/hJnMRU4AX8",Positive,"['subsidi', 'mobil', 'listrik', 'bikin', 'kualita', 'kota', 'membaik']"
+41,"@tatakujiyati Gile Lo ndro, subsidi buat rakyat miskin dihentiin. Subsidi mobil listrik di banyakin.",Neutral,"['gila', 'lo', 'ndro', 'subsidi', 'rakyat', 'miskin', 'dihentiin', 'subsidi', 'mobil', 'listrik', 'membanyaki']"
+42,"@OposisiCerdas Lg jualan apa lagi nih perusahaannya, kmrn udh nganjurin mobil listrik.",Positive,"['jualan', 'nih', 'perusahaannya', 'kemarin', 'nganjurin', 'mobil', 'listrik']"
+43,"Jual Cepat Rumah di Depok 
+k.mandi 1
+Carport 1 mobil 
+Listrik 1.300 watt
+Air PAM 
+ROW 2 mobil 
+Legalitas HGB bisa di upgrade jadi SHM 
+
+AKSES LOKASI :
+• 5 mnt ke jl raya Bogor
+• 10 mnt ke Tol Cijago
+• 5 mnt R.sakit Simpangan Depok 
+• 20 mnt ke Margocity
+
+Harga 450 jt (nego) https://t.co/eIZLf7Hjfp",Positive,"['jual', 'cepat', 'rumah', 'depok', 'kmandi', 'carport', 'mobil', 'listrik', 'watt', 'air', 'pam', 'row', 'mobil', 'legalita', 'hgb', 'upgrad', 'shm', 'aks', 'lokasi', 'jl', 'raya', 'bogor', 'tol', 'cijago', 'rsakit', 'simpangan', 'depok', 'margoc', 'harga', 'juta', 'nego']"
+44,"@geloraco Tolong dilihat sisi baiknya. harus diapresiasi. ini bukti prestasi kesuksesan mencipta taman wisata air. selain itu, ini juga menginspirasi agar ada subsidi utk jetski listrik, disamping mobil dan motor listrik nantinya.",Positive,"['tolong', 'sisi', 'baiknya', 'diapresiasi', 'bukti', 'prestasi', 'kesuksesan', 'mencipta', 'taman', 'wisata', 'air', 'menginspirasi', 'subsidi', 'jetski', 'listrik', 'disamp', 'mobil', 'motor', 'listrik']"
+45,@alisyarief @Louis_chantika harusnya mereka menggunakan mobil listrik,Positive,"['chantika', 'mobil', 'listrik']"
+46,Pas banjir2 gini mobil/motor listrik ada yg berani lewat nggak ya??? Cc @ridwanhr https://t.co/gtoWk5EVVO,Positive,"['pa', 'banjir', 'mobilmotor', 'listrik', 'berani', 'ya', 'cc']"
+47,"12 Jam Batam Mati Lampu Hari Ini 1 Januari 2023, PLN Selidiki Penyebab Pemadaman Listrik di Kepri 
+
+Gimana kalau sudah pakai mobil listrik? Semua serba listrik, repot klu sampe berjam jam mati.. 🤔🤔
+https://t.co/MX7cMRvh2v",Neutral,"['jam', 'batam', 'mati', 'lampu', 'januari', 'pln', 'selidiki', 'penyebab', 'pemadaman', 'listrik', 'kepri', 'pakai', 'mobil', 'listrik', 'serba', 'listrik', 'repot', 'berjam', 'jam', 'mati']"
+48,Sudah Tahukah Pemilik Mobil Listrik SPKLU dan Berikut Lokasi Stasiunnya di Indonesia https://t.co/Lhk6OO97nb,Positive,"['tahukah', 'pemilik', 'mobil', 'listrik', 'spklu', 'lokasi', 'stasiunnya', 'indonesia']"
+49,"TV digital, mobil listrik, motor listrik, kompor listrik.
+Katanya era digital dan modern. Kenapa pemilu pakai kardus digembok?
+Udah gitu minta 3 periode. 
+
+Gak pas banget deh. Mending diganti saja
+
+#2023PresidenBaru 
+#2023PresidenBaru https://t.co/UazOOvdDHQ",Positive,"['tv', 'digit', 'mobil', 'listrik', 'motor', 'listrik', 'kompor', 'listrik', 'era', 'digit', 'modern', 'pemilu', 'pakai', 'kardu', 'digembok', 'period', 'pa', 'banget', 'deh', 'mend', 'diganti']"
+50,@pemkab_kebumen Beliau yg dapat doorprize mobil listrik di kegiatan marathon kemarin kah?,Positive,"['kebumen', 'beliau', 'doorpriz', 'mobil', 'listrik', 'kegiatan', 'marathon', 'kemarin', 'kah']"
+51,@PinkyStevanie yang penting beli mobil listrik disubsidi Rp 40 juta,Positive,"['beli', 'mobil', 'listrik', 'disubsidi', 'rp', 'juta']"
+52,"Oh ya terus balik lagi ke half-assed policy pemerintah pusat yang mau cabut subsidi KRL sambil subsidiin mobil listrik. Ya lu bikin insentif buat kalangan orang kaya gua buat lebih naik mobil daripada naik kendaraan umum, kalo kaya gini gimana lu bisa ngurangin macet Bambang???",Positive,"['oh', 'ya', 'halfass', 'polici', 'pemerintah', 'pusat', 'cabut', 'subsidi', 'krl', 'subsidiin', 'mobil', 'listrik', 'ya', 'lu', 'bikin', 'insentif', 'kalangan', 'orang', 'kayak', 'gua', 'mobil', 'kendaraan', 'kalo', 'kayak', 'lu', 'ngurangin', 'macet', 'bambang']"
+53,"Carmaker Honda Dukung Wacana Subsidi Pemerintah untuk Mobil Listrik, Bakal Luncurkan Dua Kendaraan Hybrid via @LiatBeritaNews https://t.co/m80vzmkJNk",Positive,"['carmak', 'honda', 'dukung', 'wacana', 'subsidi', 'pemerintah', 'mobil', 'listrik', 'luncurkan', 'kendaraan', 'hybrid', 'via']"
+54,"Honda dan Sony Kerjasama Bangun Mobil Listrik, Rencananya Rilis Tahun 2025
+https://t.co/N0vvLsAgGH https://t.co/Uw4jOc7ciu",Positive,"['honda', 'soni', 'kerjasama', 'bangun', 'mobil', 'listrik', 'rencananya', 'rili']"
+55,Everrati Konversi Range Rover Classic dan Defender Menjadi Mobil Listrik https://t.co/QSSOcroVIJ,Neutral,"['everrati', 'konversi', 'rang', 'rover', 'classic', 'defend', 'mobillistrik']"
+56,@big_sheeeesh @FormulaGledek @corbuzier Ioniq keknya cuma menggambarkan tren mobil listrik sih bukan FE😂,Neutral,"['sheeeesh', 'ioniq', 'kayaknya', 'menggambarkan', 'tren', 'mobil', 'listrik', 'sih', 'fe']"
+57,"Satu warga Pekon Kerang, Kecamatan Batubrak, Lampung Barat meninggal dunia setelah mobil pikap Mistubishi L300 yang ditumpanginya tertimpah tiang listrik ketika melintas di jalur Liwa-Krui, 
+
+#lampungbarat #tertimpatianglistrik #tewas #lampostco
+https://t.co/ADEzIt8wCE",Neutral,"['warga', 'pekon', 'kerang', 'kecamatan', 'batubrak', 'lampung', 'barat', 'meningg', 'dunia', 'mobil', 'pikap', 'mistubishi', 'l', 'ditumpanginya', 'tertimpah', 'tiang', 'listrik', 'melinta', 'jalur', 'liwakrui']"
+58,"Suplai Air Terdampak Gangguan Listrik, SPAM Batam Sediakan Mobil Tangki Air https://t.co/ihgOGTZQ6N",Neutral,"['suplai', 'air', 'terdampak', 'gangguan', 'listrik', 'spam', 'batam', 'sediakan', 'mobil', 'tangki', 'air']"
+59,Cara parkir paralel Wuling Air ev mungkin menjadi pertanyaan di benak sebagian orang. Apa bisa mobil listrik mungil itu diparkir secara paralel?  https://t.co/GmmdAWthYD,Positive,"['parkir', 'paralel', 'wule', 'air', 'ev', 'benak', 'orang', 'mobil', 'listrik', 'mungil', 'diparkir', 'paralel']"
+60,@samurai_on_tv mobil listrik ya mit 😆,Positive,"['ontv', 'mobil', 'listrik', 'ya', 'mit']"
+61,Jika Anda Memiliki Mobil Listrik Inilah 5 Kelebihannya https://t.co/cfqg7rYH2j,Neutral,"['memiliki', 'mobil', 'listrik', 'kelebihannya']"
+62,"@lutungs4rung4n TV digital, mobil listrik, motor listrik, kompor listrik.
+Katanya era digital dan modern. Kenapa pemilu pakai kardus digembok?
+Udah gitu minta 3 periode. 
+
+Gak pas banget deh. Mending diganti saja
+
+#2023PresidenBaru 
+#2023PresidenBaru https://t.co/CF044TRf9b",Positive,"['tv', 'digit', 'mobil', 'listrik', 'motor', 'listrik', 'kompor', 'listrik', 'era', 'digit', 'modern', 'pemilu', 'pakai', 'kardu', 'digembok', 'period', 'pa', 'banget', 'deh', 'mend', 'diganti']"
+63,"Insentif Mobil Listrik Tak Kunjung Terbit, Penjualan Innova Zenix Stabil - Otomotif https://t.co/ruGX4pkZgD",Neutral,"['insentif', 'mobil', 'listrik', 'kunjung', 'terbit', 'penjualan', 'innova', 'zenix', 'stabil', 'otomotif']"
+64,"@Bisniscom pembali rokok di anak tirikan, pembeli mobil listrik di anak emaskan",Neutral,"['pembali', 'rokok', 'anak', 'tirikan', 'pemb', 'mobil', 'listrik', 'anak', 'emaskan']"
+65,@kompascom mending beli mobil listrik kalo gini mah,Positive,"['mend', 'beli', 'mobil', 'listrik', 'kalo', 'mah']"
+66,Kaleidoskop 4/6/2022. Ikut menyaksikan Formula E-PRIX  di Ancol yang amat sukses. KPK permasalahkan sedang diselidik.  BPK 2 kali audit. Hasilnya balap mobil listrik  internasional itu tidak bermasalah. https://t.co/qBiUnUlAi3,Positive,"['kaleidoskop', 'menyaksikan', 'formula', 'eprix', 'ancol', 'suks', 'kpk', 'permasalahkan', 'diselidik', 'bpk', 'kali', 'audit', 'hasilnya', 'balap', 'mobil', 'listrik', 'internasion', 'bermasalah']"
+67,"@rizieqdivist01 @Trending_Issue Heh goblok kalo tuh mobil nabrak tiang listrik
+Apa tiang listrik yg mau Luh salahin Jing. Lagian si Heru ngapain aja. Selama di DKI 
+Anies udh gak menjabat Heru udh 2 bulan makan gajih buta ya. Pecatan Bekasi 😁🤭 gak bisa kerja",Positive,"['issu', 'heh', 'goblok', 'kalo', 'tuh', 'mobil', 'nabrak', 'tiang', 'listrik', 'tiang', 'listrik', 'lu', 'salahkan', 'anj', 'sih', 'heru', 'mengapai', 'dki', 'ani', 'menjabat', 'heru', 'makan', 'gajih', 'buta', 'ya', 'pecatan', 'bekasi', 'kerja']"
+68,Kaleidoskop 4/6/2022. Ikut menyaksikan Formula E-PRIX  di Ancol yang amat sukses. KPK permasalahkan sedang diselidik.  BPK 2 kali audit. Hasilnya balap mobil listrik  internasional itu tidak bermasalah. https://t.co/4QYTyhHzTi,Positive,"['kaleidoskop', 'menyaksikan', 'formula', 'eprix', 'ancol', 'suks', 'kpk', 'permasalahkan', 'diselidik', 'bpk', 'kali', 'audit', 'hasilnya', 'balap', 'mobil', 'listrik', 'internasion', 'bermasalah']"
+69,"@pakaipeci Kompor listrik, mobil listrik, motor listrik, gembar gembor industri 4.0 eh milih capres pake kardus..... malu anjirrr",Neutral,"['kompor', 'listrik', 'mobil', 'listrik', 'motor', 'listrik', 'gembar', 'gembor', 'industri', 'eh', 'memilih', 'capr', 'pakai', 'kardu', 'malu', 'anjir']"
+70,"Gak beli apa2, tp di 2022 semua kebutuhan rumah aku cover mulai dr listrik air internet, segala printilan, belanja bulanan, jatah ibu, service mobil berkali2, pajak. Gakpapa jd gak ngikutin trend, tp aku bs menjamin keluargaku dan saudara2ku hdp layak. Alhamdulillah https://t.co/19zH3ri4bL",Positive,"['beli', 'kebutuhan', 'rumah', 'cover', 'listrik', 'air', 'internet', 'printilan', 'belanja', 'bulanan', 'jatah', 'servic', 'mobil', 'berkali', 'pajak', 'apa-apa', 'mengikuti', 'trend', 'menjamin', 'keluargaku', 'saudaraku', 'hidup', 'layak', 'alhamdulillah']"
+71,"@FirmanSentosa22 mobil listrik saja tidak dimasukkan kedalam program ""next-100""",Neutral,"['mobil', 'listrik', 'dimasukkan', 'kedalam', 'program', 'next']"
+72,"@kudu_piye_neh Mobil listrik kekinian ae,jare irit🤭",Neutral,"['piyeneh', 'mobil', 'listrik', 'kekinian', 'aejar', 'irit']"
+73,Banjir semarang jd mikir yg punya mobil listrik auto kisutt deh ... makanya klo buat kebijakan apalagi sampe kasih subsidi mbl listrik cek dl lah situasi lokal daerah dan infrastruktur nya ... jgn asal mangap aja akhirnya rakyat jd yg kena getah nya ... 🤣🤣🤣,Neutral,"['banjir', 'semarang', 'mikir', 'mobil', 'listrik', 'auto', 'kisutt', 'deh', 'kalo', 'kebijakan', 'kasih', 'subsidi', 'mbl', 'listrik', 'cek', 'situasi', 'lokal', 'daerah', 'infrastruktur', 'nya', 'mangap', 'rakyat', 'kena', 'getah', 'nya']"
+74,@BisKota_ Kebayang kan yg punya mobil listrik di Semarang di masa depan.,Positive,"['terbayang', 'mobil', 'listrik', 'semarang']"
+75,"@kompascom Maunya beli mobil listrik, tapi beneran ga subsidi nya. Wk.",Positive,"['maunya', 'beli', 'mobil', 'listrik', 'benaran', 'subsidi', 'nya']"
+76,"Alih-alih pro transportasi publik, yg nongol malah orang kaya dimahalin naik umum. Diskon 80jt buat beli mobil listrik. Dll.
+
+Susah jg kalo negara diisi orang-orang yg lagi dagang. Fokusnya jualan. Janji kampanye berakin aj.",Neutral,"['alihalih', 'pro', 'transportasi', 'publik', 'nongol', 'orang', 'kayak', 'dimahalin', 'diskon', 'juta', 'beli', 'mobil', 'listrik', 'dll', 'susah', 'kalo', 'negara', 'diisi', 'orangorang', 'dagang', 'fokusnya', 'jualan', 'janji', 'kampany', 'berakin']"
+77,"@ruangchupa Masa yang MotoGP bisa pas motornya, ini yang mobil listrik malah Hyundai. Yang mana pabrikan Korsel itu ngga ikut Formula E.",Positive,"['motogp', 'pa', 'motornya', 'mobil', 'listrik', 'hyundai', 'pabrikan', 'korsel', 'formula', 'e']"
+78,"@merapi_uncover BBM, krna ada wacana subsidi mobil listrik.
+
+Gas, krna ada wacana peralihan gas ke listrik jg.
+
+Nek do duwe duit, nabungo gawe pembangkit listrik tenaga surya skala rumahan, lumayan ora ketergantungan karo monopoli listrik ngger",Neutral,"['uncov', 'bbm', 'wacana', 'subsidi', 'mobil', 'listrik', 'ga', 'wacana', 'peralihan', 'ga', 'listrik', 'nek', 'duw', 'duit', 'nabungo', 'gaw', 'pembangkit', 'listrik', 'tenaga', 'surya', 'skala', 'rumahan', 'lumayan', 'ora', 'ketergantungan', 'karo', 'monopoli', 'listrik', 'ngger']"
+79,"Formula E Jakarta 2022:
+
+Menarik lebih dari 13,4 juta penonton yang menonton siaran langsung balap mobil listrik di televisi. https://t.co/6t0z1zcfol",Positive,"['formula', 'e', 'jakarta', 'menarik', 'jutapenonton', 'menonton', 'siaran', 'langsung', 'balap', 'mobil', 'listrik', 'televisi']"
+80,Mobil Listrik Kloningan Daihatsu Ini Siap Masuk Pasar Indonesia: EPMB menerima hak ekslusif dalam merakit dan mendistribusi kendaraan listrik merek Lingbox di pasar Malaysia dan Indonesia. Mobil Lingbox mini EV segera masuk ke tanah air? https://t.co/ow0M3aG64A https://t.co/IhkZxAj87X,Neutral,"['mobil', 'listrik', 'kloningan', 'daihatsu', 'masuk', 'pasar', 'indonesia', 'epmb', 'menerima', 'hak', 'ekslusif', 'merakit', 'mendistribusi', 'kendaraan', 'listrik', 'merek', 'lingbox', 'pasar', 'malaysia', 'indonesia', 'mobil', 'lingbox', 'mini', 'ev', 'masuk', 'tanah', 'air']"
+81,klo mobil listrik tuh keujanan kena air nyetrum ga sih?,Neutral,"['kalo', 'mobil', 'listrik', 'tuh', 'keujanan', 'kena', 'air', 'nyetrum', 'sih']"
+82,"[Mobil Listrik/Self Driving]
+Kendaraan listrik akan mulai naik daun, tentunya dengan fasilitas self-driving.
+https://t.co/uuoMKKtiYw
+https://t.co/BrcDIHsWZh",Positive,"['mobil', 'listrikself', 'drive', 'kendaraan', 'listrik', 'daun', 'fasilita', 'selfdriv']"
+83,"mobil listrik bisa gak ya dicharge pake belut, lebih mudah bawa belut aja dibanding cari charging station",Neutral,"['mobil', 'listrik', 'ya', 'dicharg', 'pakai', 'belut', 'mudah', 'bawa', 'belut', 'diband', 'cari', 'charg', 'station']"
+84,"@Outstandjing Nah ini yang sering saya pikirin. Kereta cepat habis 100 T lebih, IKN direncanakan habis 500 T, subsidi motor mobil listrik dianggarkan sekian T. Belum subsidi BBM tiap tahu habis sekian ratus T.
+I mean, kenapa nggak yang T T itu dipakai untuk perbaikan kualitas PDAM seIndonesia?",Positive,"['pikirin', 'kereta', 'cepat', 'habi', 't', 'ikn', 'direncanakan', 'habi', 't', 'subsidi', 'motor', 'mobil', 'listrik', 'dianggarkan', 'sekian', 't', 'subsidi', 'bbm', 'habi', 'sekian', 'ratu', 't', 'i', 'mean', 't', 't', 'dipakai', 'perbaikan', 'kualita', 'pdam', 'seindonesia']"
+85,"@jokowi Kenangan baik di 2022 akan disambut dengan kebijakan naiknya tatif KRL sementara pajak mobil listrik ditekan seminim mungkin. 🤡
+
+Lu kira orang kaya mau naik kereta?
+Naik Tesla dkk lahhh 💰😅",Neutral,"['kenangan', 'disambut', 'kebijakan', 'naiknya', 'tatif', 'krl', 'pajak', 'mobil', 'listrik', 'ditekan', 'seminim', 'lu', 'orang', 'kayak', 'kereta', 'tesla', 'dkk']"
+86,"Alasan Mercedes Benz Belum Hadirkan Fast Charging untuk Kendaraan Listrik
+Mercedes Benz memiliki kapasitas baterai mobil listrik yang dapat menempuh jarak yang jauh.
+https://t.co/znzevfcUWa",Neutral,"['alasan', 'merced', 'benz', 'hadirkan', 'fast', 'charg', 'kendaraan', 'listrik', 'merced', 'benz', 'memiliki', 'kapasita', 'baterai', 'mobil', 'listrik', 'menempuh', 'jarak']"
+87,#MostPopuler 3 Mobil Listrik Ini Siap Sambut Awal Tahun Baru 2023 https://t.co/BxgwerH31m,Positive,"['mobil', 'listrik', 'sambut']"
+88,@akhirkisahini Btw mo beli mobil listrik apa mas?,Positive,"['btw', 'beli', 'mobil', 'listrik', 'ma']"
+89,"@DukuhAtasBNI Mereka ngantri krl , gw udh mimpi naik mobil listrik yang bisa terbang",Positive,"['mengantri', 'krl', 'gue', 'mimpi', 'mobil', 'listrik', 'terbang']"
+90,@FWBESS Mobil listrik,Positive,"['mobil', 'listrik']"
+91,"Rumah view ok setiabudi regency bandung barat
+Harga 1,8 M 
+
+Spesifikasinya:
+- Luas tanah 200 m2
+- Luas bangunan 150 m2
+- 3 KT
+- 3 KM
+- SHM,IMB
+- listrik 5500 watt
+- Carport 1 mobil
+
+Alamat :  Kec parongpong
+
+Info :  081339094004/089638815552 https://t.co/4QrBVKEXua",Positive,"['rumah', 'view', 'ok', 'setiabudi', 'regenc', 'bandung', 'barat', 'harga', 'spesifikasinya', 'lua', 'tanah', 'lua', 'bangunan', 'shmimb', 'listrik', 'watt', 'carport', 'mobil', 'alamat', 'kec', 'parongpong', 'info']"
+92,3 Mobil Listrik Ini Siap Sambut Awal Tahun Baru 2023 https://t.co/6Fzw91dt5r,Positive,"['mobil', 'listrik', 'sambut']"
+93,"Tahun 2022 sudah dipengujung akhir, namun industri otomotif tahun depan diprediksi bakal lebih menarik karena bakal banyak bermunculan mobil listrik. https://t.co/dNg03BK9Uv",Positive,"['dipengujung', 'industri', 'otomotif', 'diprediksi', 'menarik', 'bermunculan', 'mobil', 'listrik']"
+94,"Rumah area Melong cijerah kebon kopi pharmindo cimahi
+Harga Rp 960jt 
+
+Luas Tanah : 110 m2
+Luas Bangunan : 100 m2
+kamar Tidur : 4
+kamar Mandi : 2
+SHM,IMB
+Jalan Lebar
+Listrik 1300 watt
+Carport 1 Mobil
+
+Alamat : Kec. Cimahi Selatan
+
+WA   : 08133 909 4004 / 089638815552 https://t.co/BZYoy2gmGD",Positive,"['rumah', 'area', 'melong', 'cijerah', 'kebon', 'kopi', 'pharmindo', 'cimahi', 'harga', 'rp', 'juta', 'lua', 'tanah', 'lua', 'bangunan', 'kamar', 'tidur', 'kamar', 'mandi', 'shmimb', 'jalan', 'lebar', 'listrik', 'watt', 'carport', 'mobil', 'alamat', 'kec', 'cimahi', 'selatan', 'wa']"
+95,"Bulan Depan Suzuki Luncurkan 3 Produk Baru, Salah Satunya Mobil Listrik https://t.co/3qRg80Dcpf https://t.co/HgYPtwPI9U",Neutral,"['suzuki', 'luncurkan', 'produk', 'salah', 'satunya', 'mobil', 'listrik']"
+96,"@roses_man Biar horangkayah pake mobil listrik subsidi, horangmiskin bayar subsidi mereka dengan udunan naik kereta",Neutral,"['man', 'biar', 'horangkayah', 'pakai', 'mobil', 'listrik', 'subsidi', 'horangmiskin', 'bayar', 'subsidi', 'udunan', 'kereta']"
+97,@Joryushi elsa mobil listrik itu wkwk,Positive,"['elsa', 'mobil', 'listrik', 'wkwk']"
+98,"@rahmaniarbaftim @IMCMushroom @ArieMutyara @B171Jakarta @bozzvanc1 @__PASMANTAP Utk dapat Presiden Baru di Era Digital yg bangga dgn moderenisasi harus yg bener
+Pake TV Digital
+Pake Mobil Listrik
+Pake Motor Listrik
+Pake Kompor Listrik
+PILPRES harusnya pake e-Voting
+
+Dana Pilpres 75 Triliun tp pake KARDUS DIGEMBOK
+Cuma dapat Penerus Jokowi Boneka oligarki🤦🫣 https://t.co/YoteDqedWz",Neutral,"['pasmantap', 'presiden', 'era', 'digit', 'bangga', 'moderenisasi', 'pakai', 'tv', 'digit', 'pakai', 'mobil', 'listrik', 'pakai', 'motor', 'listrik', 'pakai', 'kompor', 'listrik', 'pilpr', 'pakai', 'evot', 'dana', 'pilpr', 'triliun', 'pakai', 'kardu', 'digembok', 'peneru', 'jokowi', 'boneka', 'oligarki']"

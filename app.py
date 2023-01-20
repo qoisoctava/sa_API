@@ -10,7 +10,7 @@ from nltk.corpus import stopwords
 
 model = pickle.load(open('./old/modelSVC.pickle','rb'))
 tfidf_vectorizer =  pickle.load(open('./old/tfidf_vectorizer.pickle','rb'))
-
+APIurl = 'http://127.0.0.1:3000'
 
 def cleaningText(text):
     text = re.sub(r'@[A-Za-z0-9]+', '', text) # remove mentions
@@ -62,17 +62,21 @@ def normalize_alay(text):
     ###   DATA SCRAPING  ###
     ########################
 
-def Tweet(keyword,date_since,date_until):
+def scraperKey(keyword,date_since,date_until):
     query = keyword+" lang:id until:"+str(date_until)+" since:"+str(date_since)
+    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    req.post('{}/progress/new'.format(APIurl),{'dateGet':now,'keyword':keyword,'dateSince':date_since,'dateUntil':date_until,'status':1,'source':'tw'} )
     #print(query)
     #print(datetime.now())
     #print("Sedang Mengumpulkan Data Twitter...")
     tweets = []
-    for tweet in sntwitter.TwitterSearchScraper(query, top=True).get_items():
-        tweets.append([tweet.date, tweet.user.username, tweet.content, tweet.hashtags, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
+    while len(tweets) <= 20:
+        for tweet in sntwitter.TwitterSearchScraper(query).get_items():
+            tweets.append([datetime.now().date(), keyword, tweet.date, tweet.user.username, tweet.content, tweet.hashtags,tweet.mentionedUsers, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
         
-    df = pd.DataFrame(tweets, columns=['Date', 'User', 'Tweet', 'Hashtags', 'Like', 'Retweet', 'Reply'])
-    return df
+        
+        
+    df = pd.DataFrame(tweets, columns=['timestamp','keyword','date', 'user', 'tweet', 'hashtags', 'mentions', 'likeCount', 'retweetCount', 'replyCount'])
 
     ##############################
     ###   DATA PRE-PROCESSING  ###

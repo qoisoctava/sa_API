@@ -11,7 +11,7 @@ import string
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
-from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
+# from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
 import pickle
 
 

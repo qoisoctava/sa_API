@@ -11,6 +11,7 @@ import requests
 from flask import Flask, redirect, url_for, request, render_template
 import urllib.request as request_api
 import json
+from flask_cors import CORS, cross_origin
 
 model = pickle.load(open('./old/modelSVC.pickle','rb'))
 tfidf_vectorizer =  pickle.load(open('./old/tfidf_vectorizer.pickle','rb'))
@@ -62,7 +63,7 @@ def normalize_alay(text):
  text = re.sub(' +', ' ', text)
  return text
 
-def update(code):
+def update(id,code):
     requests.put('{}/progress/twitter/update'.format(APIurl), data={'id':id,'status': code})
    
     ########################
@@ -72,34 +73,35 @@ def update(code):
 def twitter(keyword,date_since,date_until,topic):
     query = keyword+" lang:id until:"+str(date_until)+" since:"+str(date_since)
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    requests.post('{}/progress/new'.format(APIurl),{'dateGet':now,'keyword':keyword,'dateSince':date_since,'dateUntil':date_until,'status':1,'source':'tw'} )
-    #print(query)
+    up =  requests.post('{}/progress/twitter/new'.format(APIurl),{'dateGet':now,'keyword':keyword,'dateSince':date_since,'dateUntil':date_until,'status':1,'source':'tw'} )
+    print(up)
     #print(datetime.now())
-    #print("Sedang Mengumpulkan Data Twitter...")
+    print("Sedang Mengumpulkan Data Twitter...")
     tweets = []
     while len(tweets) <= 20:
         for tweet in sntwitter.TwitterSearchScraper(query).get_items():
             tweets.append([datetime.now().date(), keyword, tweet.date, tweet.user.username, tweet.content, tweet.hashtags,tweet.mentionedUsers, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
         
         
-        
+       
+    print("data sudah terkumpul")
     df = pd.DataFrame(tweets, columns=['timestamp','keyword','date', 'user', 'tweet', 'hashtags', 'mentions', 'likeCount', 'retweetCount', 'replyCount'])
-
     ##############################
     ###   DATA PRE-PROCESSING  ###
     ##############################
 
     id = requests.get('{}/progress/twitter/id/{}'.format(APIurl,now)).json()[0]['id']
+    print("=====/ update /=====")
     print(id)
 
 
     if df.empty:
-        update(404)
+        update(id,404)
         print("Tidak ada data atau query keliru!")
     else:
         df = df.drop_duplicates(subset=['tweet'])
         dataset = df
-        update(2)
+        update(id,2)
         #print(dataset)
         print("Sedang Membersihkan Data Twitter...")
         #gabungin hashtags
@@ -130,7 +132,7 @@ def twitter(keyword,date_since,date_until,topic):
             ###################################
 
         print("Sedang Menganalisis Sentimen Publik...")
-        update(3)
+        update(id,3)
 
         print(datetime.now())
         # Make text preprocessed (tokenized) to untokenized with toSentence Function
@@ -209,14 +211,15 @@ def twitter(keyword,date_since,date_until,topic):
                     'sentiment' : sentiment
                 } )
                 print(mention)
-                
+    update(id,4)              
 
 app = Flask(__name__)
+CORS(app)
 #run_with_ngrok(app)
 @app.route('/twitter/prediction/', methods=["POST","GET"])
 def prediction_result():
-    print("ok")
-    data = request.json
+    json.dumps(200)
+    data = request.get_json(force=True)
     print(data)
     keyword = data.get('keyword')
     dateSince = data.get('dateSince')

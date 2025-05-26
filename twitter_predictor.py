@@ -9,7 +9,8 @@ import pickle
 from nltk.tokenize import word_tokenize
 import requests
 from indoNLP.preprocessing import replace_word_elongation, emoji_to_words
-
+import time
+import subprocess
 
 
 
@@ -22,6 +23,9 @@ features = 5200
 #URL untuk API
 APIurl = 'http://127.0.0.1:3000'
 # APIurl = 'http://be-sa.qoisoctava.com'
+
+def dateFormat(tgl):
+    return datetime.strptime(tgl, "%a %b %d %H:%M:%S %z %Y").strftime("%Y-%m-%d %H:%M:%S")
 
 def cleaningText(text):
     text = re.sub(r'@[A-Za-z0-9]+', '', text) # remove mentions
@@ -90,8 +94,10 @@ def update(id,code):
     ########################
 
 
+
 def twitter(keyword,date_since,date_until,topic):
-    query = keyword+" lang:id until:"+str(date_until)+" since:"+str(date_since)
+    # query = keyword+" lang:id until:"+str(date_until)+" since:"+str(date_since)
+    query = keyword+" until:"+str(date_until)+" since:"+str(date_since)
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     newProgress = {'dateGet':now,'keyword':keyword,'dateSince':date_since,'dateUntil':date_until,'status':1}
     print(newProgress)
@@ -99,15 +105,27 @@ def twitter(keyword,date_since,date_until,topic):
     print(up)
     #print(datetime.now())
     print("Sedang Mengumpulkan Data Twitter...")
-    tweets = []
-    while len(tweets) <= 20:
-        for tweet in sntwitter.TwitterSearchScraper(query).get_items():
-            tweets.append([datetime.now().date(), keyword, tweet.date, tweet.user.username, tweet.content, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
+    # tweets = []
+    # while len(tweets) <= 20:
+    #     for tweet in sntwitter.TwitterSearchScraper(query).get_items():
+            # tweets.append([datetime.now().date(), keyword, tweet.date, tweet.user.username, tweet.content, tweet.likeCount, tweet.retweetCount, tweet.replyCount])
         
-        
+    filename = f'{time.time()}.csv'
+    print(filename)
+    limit = 500   
        
+    
+    # df = pd.DataFrame(tweets, columns=['timestamp','keyword','date', 'user', 'tweet', 'likeCount', 'retweetCount', 'replyCount'])
+    subprocess.call(f'npx --yes tweet-harvest@latest -o {filename} -s "{query}" -l {limit} --token d5bcb1a68f295da6e9dc0ab6cfe10aaaca533e88', shell=True, executable='/bin/zsh')
+    
+    # Specify the path to your CSV file
+    print(filename+"[[2]]")
+    file_path = f"tweets-data/{filename}"
+    # Read the CSV file into a pandas DataFrame
+    df = pd.read_csv(file_path, delimiter=";")
+    df = df[['created_at','username','full_text','favorite_count','retweet_count','reply_count']].rename(columns={'created_at':'date','username':'user','full_text':'tweet','favorite_count':'likeCount','retweet_count':'retweetCount','reply_count':'replyCount'}) 
+   
     print("data sudah terkumpul")
-    df = pd.DataFrame(tweets, columns=['timestamp','keyword','date', 'user', 'tweet', 'likeCount', 'retweetCount', 'replyCount'])
     ##############################
     ###   DATA PRE-PROCESSING  ###
     ##############################
@@ -271,12 +289,14 @@ def twitter(keyword,date_since,date_until,topic):
         dataset['date'] = pd.to_datetime(dataset['date']).dt.date
         dataset['date']=dataset['date'].astype(str)
             
-        df = dataset[['timestamp', 'keyword', 'date', 'user', 'tweet', 'likeCount', 'retweetCount', 'replyCount','popularityScore',  'sentiment']]
-        
+        df = dataset[['date', 'user', 'tweet', 'likeCount', 'retweetCount', 'replyCount','popularityScore',  'sentiment']]
+        df['dateGet'] = str(now)
+        df['keyword'] = keyword
+        print(df.head())
     data_dict = df.to_dict(orient='records')
     for i in data_dict:
         dicts ={
-            'dateGet':i['timestamp'],
+            'dateGet':i['dateGet'],
             'keyword':i['keyword'],
             'contentDate':i['date'],
             'username':i['user'],
